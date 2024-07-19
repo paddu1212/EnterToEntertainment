@@ -26,7 +26,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className="mt-8 md:mt-0 md:order-1 flex justify-center">
-                        <a href="https://about-me-nu-lovat.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white ml-6">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white ml-6">
                             {/* Like button with heart emoji */}
                             <span role="img" aria-label="Heart">❤️</span> Pradeep
                         </a>
