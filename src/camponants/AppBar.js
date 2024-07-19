@@ -64,10 +64,10 @@ const Navbar = () => {
         
         <div className="flex flex-row bg-gray-700 w-full px-10 py-2 shadow-2xl fixed z-30">
             <div className="w-full ml-10">
-                <Link to='/' className="text-white w-full text-3xl font-serif">GSH</Link>
+                <Link to='/' className="text-white w-full text-3xl font-serif">Enter To Entertainment</Link>
             </div>
             <div className="w-4/12 max-sm:hidden">
-                <div className="flex flex-row">
+                {/* <div className="flex flex-row">
                     <IoMdSearch className='text-white size-7 mt-2' />
                     <input
                         type="text"
@@ -75,7 +75,7 @@ const Navbar = () => {
                         className="bg-gray-700 text-white py-2 px-4 rounded-l-md focus:outline-none "
                     />
                 </div>
-                <hr />
+                <hr /> */}
                 
             </div>
             <div className="cursor-pointer sm:hidden " onClick={()=>handleMenu()} >
