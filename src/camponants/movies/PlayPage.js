@@ -78,6 +78,14 @@ function PlayPage({ isVisible, onClose, passData }) {
     const handleLogin = () => {
         setshowModel(true)
     }
+    const LanguageToggle = (language) => {
+        if (language === 'en') return 'English';
+        if (language === 'kn') return 'Kannada';
+        if (language === 'hi') return 'Hindi';
+        if (language === 'te') return 'Telagu';
+        if (language === 'ml') return 'Malayalam';
+        return language
+    }
     return (
         <>
         <Login isvisible={showModel} onClose={()=>setshowModel(false)} />
@@ -127,7 +135,7 @@ function PlayPage({ isVisible, onClose, passData }) {
                                 <div className='w-full'>
                                     <div className='max-md:text-sm font-semibold'>Language</div>
                                     <div className='max-md:text-xs'>
-                                        {passData.original_language === 'en' ? 'English' : passData.original_language }
+                                        {()=>LanguageToggle(passData.original_language)}
                                     </div>
                                 </div>
                                 <div className='w-full'>
