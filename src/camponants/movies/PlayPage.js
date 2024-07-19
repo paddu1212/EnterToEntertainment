@@ -135,7 +135,7 @@ function PlayPage({ isVisible, onClose, passData }) {
                                 <div className='w-full'>
                                     <div className='max-md:text-sm font-semibold'>Language</div>
                                     <div className='max-md:text-xs'>
-                                        {()=>LanguageToggle(passData.original_language)}
+                                        {LanguageToggle(passData?.original_language)}
                                     </div>
                                 </div>
                                 <div className='w-full'>
