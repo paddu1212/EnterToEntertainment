@@ -63,7 +63,7 @@ const Navbar = () => {
         <Login isvisible={showModel} onClose={()=>setshowModel(false)} />
         
         <div className="flex flex-row bg-gray-700 w-full px-10 py-2 shadow-2xl fixed z-30">
-            <div className="w-full ml-10">
+            <div className="w-full ml-10 py-1">
                 <Link to='/' className="text-white w-full text-3xl font-serif">Enter To Entertainment</Link>
             </div>
             <div className="w-4/12 max-sm:hidden">
